@@ -1,0 +1,1 @@
+This repository will include my trading bots. So far I have only created a simple momentum trading bot that I plan on improving. I also plan on making more begginer bots soon, such as a moving average bot.
