@@ -1,3 +1,8 @@
+'''
+Oliver Marszalek
+Backtesting Training and Testing Period / Current Work in Progress
+'''
+
 import MTbot
 import math
 import numpy as np
@@ -78,6 +83,7 @@ def optimize_returns(symbols, train_start="2020-01-01", train_end="2022-12-31",
     return best_lookback, best_threshold
 
 optimize_returns(short_symbol_list)
+
 
 
 
