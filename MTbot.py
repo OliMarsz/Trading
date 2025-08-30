@@ -54,7 +54,9 @@ class MT_Model:
             print("Please fetch data and calculate momentum first")
             return
             
-        self.data['Strategy_Returns'] = self.data['Returns'] * self.data['Position']
+        self.data['Cost'] = self.data['Position'].diff().abs() * 0.001
+            
+        self.data['Strategy_Returns'] = self.data['Returns'] * self.data['Position'] - self.data['Cost']
         
         self.data['Cumulative_Market'] = (1 + self.data['Returns']).cumprod()
         self.data['Cumulative_Strategy'] = (1 + self.data['Strategy_Returns']).cumprod()
@@ -146,3 +148,4 @@ class MT_Model:
 
 
         
+
