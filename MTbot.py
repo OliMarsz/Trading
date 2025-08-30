@@ -1,6 +1,5 @@
 '''
 Oliver Marszalek
-08/15/2025
 Begginer Momentum Trading Bot / Current Work in Progress
 '''
 
@@ -148,4 +147,5 @@ class MT_Model:
 
 
         
+
 
