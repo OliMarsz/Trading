@@ -1,1 +1,0 @@
-This repository will include my trading bots. As I just recently coded my first simple bot, the repository is fairly empty. Over time, I will build other simple bots while improving the ones I have already built to include more complexity. 
