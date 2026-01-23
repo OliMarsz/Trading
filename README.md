@@ -2,8 +2,8 @@
 
 ## An aspiring Quant Trader at Northwestern
 
-- 🔭 I'm currently working on **NFL match predictor**
-- 🌱 I'm currently learning **how to utilize machine learning**
+- This bot is a work in progress. 
+
 
 ### Connect with me:
 
