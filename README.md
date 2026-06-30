@@ -59,11 +59,9 @@ The strategy does not beat SPY or the equal-weight universe on raw return. That 
 | Total Strategy Return             |  99.74% |
 | Compounded Stock Contribution     |  91.41% |
 | Compounded Cash Contribution      |   7.77% |
-| Approx Stock Return Points        |  76.08% |
-| Approx Cash Return Points         |   7.48% |
-| Approx Trading Cost Drag          |   3.22% |
+| Trading Cost Drag                 |   3.22% |
 
-Most of the return came from selected stock positions, not from sitting in cash.
+Most of the return came from selected stock positions, not from sitting in cash. The stock and cash contribution figures are compounded separately, while the trading cost drag is the summed transaction-cost impact across the backtest.
 
 ---
 
